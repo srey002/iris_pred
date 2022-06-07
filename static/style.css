@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: grey
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #673AB7;
+    font-weight: normal
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 35%;
+    height: 50%;
+    margin-left: 33%;
+    margin-top: 7%;
+    position: relative;
+   /* From https://css.glass */
+background: rgba(226, 247, 9, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(226, 247, 9, 1);
+}
+
+.form-card {
+    text-align: left;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 13%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #673AB7;
+    background-color: #E2F7091F;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #673AB7;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 100px 5px;
+    float: center;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #311B92
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: center;
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.purple-text {
+    color: #673AB7;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color:  #673AB7;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+#contain{
+    margin: 13% 0% 0% 28%;
+    padding: 5% 5% 0% 5%;
+    width: 30%;
+    height: 35%;
+    text-align: center;
+    background: rgba(226, 247, 9, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(226, 247, 9, 1);
+}
+#res{
+     font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 5px;
+    font-weight: normal;
+    text-align: center;
+}
+.home{
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 100px 5px;
+    float: center;
+}
+ .home:hover,
+ .home:focus {
+    background-color: #311B92
+}

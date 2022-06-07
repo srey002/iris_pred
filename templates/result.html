@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Prediction</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<div id="contain">
+		{%if data==0%}
+			<p id="res">Its Iris-Setosa</p>
+		{%elif data==1%}
+			<p id="res">Its Iris-Versicolor</p>
+		{%else%}
+			<p id="res">Its Iris-Virginica</p>
+		{%endif%}
+		<a href="/"><button class="home">Home</button></a>
+	</div>
+</body>
+</html>
